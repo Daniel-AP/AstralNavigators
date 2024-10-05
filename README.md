@@ -1,2 +1,2 @@
 # AstralNavigators
-Proyecto Nasa Space Challenge
+Proyecto Nasa Space Challenge 2024
