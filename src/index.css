@@ -5,3 +5,30 @@
 html, body, #root {
   height: 100%;
 }
+
+#root {
+  overflow: hidden;
+}
+
+#info {  
+  background-image: url("./assets/stars_texture.jpg");
+  background-size: cover;
+  background-position: center;  
+  
+  display: flex;
+  height: 100vh;
+  background-color: hotpink;
+}
+
+#info h1 {
+  font-family: "Protest Strike", sans-serif;
+  color: white;
+  font-size: 65px;
+}
+
+#info p {
+  color: white;
+  margin-top: 20px;
+  line-height: 1.5;
+  font-family: "Protest Strike", sans-serif;
+}
