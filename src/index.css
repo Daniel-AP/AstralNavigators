@@ -6,6 +6,11 @@ html, body, #root {
   height: 100%;
 }
 
+body {
+  overflow: hidden;
+  font-family: "Protest Strike", sans-serif;
+}
+
 #root {
   overflow: hidden;
 }
@@ -16,8 +21,7 @@ html, body, #root {
   background-position: center;  
   
   display: flex;
-  height: 100vh;
-  background-color: hotpink;
+  height: 100%;
 }
 
 #info h1 {
@@ -30,5 +34,24 @@ html, body, #root {
   color: white;
   margin-top: 20px;
   line-height: 1.5;
+  font-weight: 100;
   font-family: "Protest Strike", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
